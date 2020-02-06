@@ -1,0 +1,18 @@
+{
+  "name": "Remove Paywalls",
+  "version": "1.0",
+  "description": "Remove pesky site paywalls if possible",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "run_at": "document_start",
+      "js": ["content.js"],
+      "all_frames": false
+    }
+  ]
+}

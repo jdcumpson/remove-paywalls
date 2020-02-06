@@ -1,0 +1,14 @@
+{
+  "name": "remove-paywalls",
+  "version": "1.0.0",
+  "description": "Chrome extension to remove paywalls from popular sites",
+  "main": "index.js",
+  "repository": "git@github.com:jdcumpson/remove-paywalls.git",
+  "author": "JD Cumpson <cumpsonjd@gmail.com>",
+  "license": "Apache 2.0",
+  "private": false,
+  "permissions": ["storage",  "activeTab"],
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
