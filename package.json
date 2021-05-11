@@ -9,6 +9,6 @@
   "private": false,
   "permissions": ["storage",  "activeTab"],
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
